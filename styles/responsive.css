@@ -1,0 +1,283 @@
+@media (min-width:1400px) {
+    
+}
+@media (max-width:1400px) {
+    .nav__list{
+        margin-left: 10rem;
+    }
+}
+@media (max-width:1200px) {
+    .nav__logo-box{
+        margin-left: 5rem;
+    }
+    .services-box{
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+    .resu-right__date{
+        left: 80%;
+    }
+    .menu-portfolio__item{
+        padding: .85rem 2rem;
+        font-size: 1.75rem;
+        margin-right: 1rem;
+    }
+    .menu-gallery__image{
+        width: 30rem;
+    }
+    .pricing-box{
+        width: 24rem;
+    }
+}
+@media (max-width:992px) {
+    .top-section{
+        height: 110vh;
+    }
+    .container-header{
+        flex-direction: column-reverse;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .nav__menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 9.34rem;
+        background-color: #fff;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    .nav--open{
+        height:33rem ;
+    }
+    .nav__list{
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav__item{
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+    .nav__item:last-child{
+        margin-bottom: 2rem;
+    }
+    .nav__hamberger{
+        display: flex;
+        margin-right: 5rem;
+    }
+    .cover{
+        opacity: 1;
+    }
+    
+    .top-section__left{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us__content{
+        flex-direction: column;
+        /* text-align: center; */
+    }.about-us__text{
+        width: 76%;
+        margin-top: 5rem;
+        margin-left: 0rem;
+    }
+    .btn{
+        width: 100%;
+    }
+    .top-section__right-btn,.about-us__right-btn{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+    /* .about-us__right-btn{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    } */
+    .about-us__buttons{
+        text-align: center;
+    }
+    .Resume{
+        margin: 20rem 0;
+        height: 130vh;
+    }
+    .resume-box{
+        row-gap: 8rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resu-left{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+    .resu-left__green-column{
+        width: 0;
+    }
+    .resu-left__list{
+        padding: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .resu-left__item{
+        margin-top: .5rem;
+        padding: .5rem 1.75rem;
+        border-radius: 2rem;
+        transition: all 0.25s;
+    }
+    .resu-left__item:first-child{
+        margin-top: .5rem;
+    }
+    .svg-icon{
+        display: none;
+    }
+    .resu-left__item::before{
+        display: none;
+    }
+    .resu-left__item:hover{
+        color: #fff;
+        background-color:#0ABEAD;
+    }
+    .menu-gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-gallery__image{
+        width: 50rem;
+    }
+    .pricing{
+        margin-top: 70rem;
+        margin-bottom: 30rem;
+        box-shadow: none;
+        height: 97vh; 
+    }
+    .pricing-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .pricing-box{
+        width: 50rem;
+    }
+    .contact{
+        margin-top: 80rem;
+    }
+    .contact-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-footer__icons{
+        margin-top: 2rem;
+    }
+    .contact__location{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .services-box{
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:576px) {
+    .top-section{
+        height: 95vh;
+    }
+    .nav__logo-box{
+        margin-left: 2rem;
+    }
+    .nav__hamberger{
+        margin-right: 2rem;
+    }
+    .top-section__title{
+        font-size: 3rem;
+    }
+    .top-section__circle1{
+        width: 28rem;
+        height: 28rem;
+    }
+    .top-section__circle2{
+        width: 24rem;
+        height: 24rem;
+    }
+    .top-section-p2{
+        margin-top: 1rem;
+    }
+    .about-us__buttons{
+        display: flexbox;
+        flex-direction: column;
+    }
+    .services-box{
+        grid-template-rows: repeat(6,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service-box{
+        width: 22rem;
+        height: 22rem;
+        padding: 1.5rem;
+    }
+    .resu-right__content{
+        text-align: center;
+    }
+    .resu-right__top-title{
+        justify-content: space-around ;
+    }
+    .resu-right__date{
+        position: relative;
+        left: 0;
+    }
+    .resu-right__title-cap{
+        margin: 1rem 0 .5rem 0;
+    }
+    .resu-right__cap{
+        margin-bottom: 3rem;
+    }
+    .resu-right__cap:last-child{
+        margin-bottom: 0;
+    }
+    .resu-right__title::before{
+        margin-left: -5rem;
+    }
+    .menu-gallery__image{
+        width: 25rem;
+    }
+    .pricing-box{
+        width: 35rem;
+    }
+}
+
+@media (max-width:450px) {
+    .container {
+        width: 240px;
+    }
+    .top-section__circle1{
+        width: 23rem;
+        height: 23rem;
+    }
+    .top-section__circle2{
+        width: 21rem;
+        height: 21rem;
+    }
+    .resu-right__title{
+        font-size: 1.4rem;
+    }
+    .resu-right__date{
+        font-size: 1.1rem;
+    }
+    .resu-right__title::before{
+        margin-left: -3.25rem;
+    }
+    .pricing-box{
+        width: 25rem;
+    }
+}
